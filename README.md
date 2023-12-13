@@ -52,6 +52,9 @@ python3 -m venv venv
   ```
 
 6. Run the Django development server:
+```
+ python manage.py runserver
+  ```
 Open your web browser and navigate to `http://localhost:8000` to access the web scraper.
 
 ## Usage

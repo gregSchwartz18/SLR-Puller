@@ -2,13 +2,13 @@ from django.shortcuts import render
 import requests
 from bs4 import BeautifulSoup
 from io import BytesIO
-from reportlab.pdfgen import canvas
+#from reportlab.pdfgen import canvas
 from django.http import HttpResponse
 import csv
 import json
 from django.urls import path
 from django.template.loader import get_template
-from xhtml2pdf import pisa
+#from xhtml2pdf import pisa
 from pathlib import Path
 
 import io
@@ -22,7 +22,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import time
 
-import browser_cookie3
+#import browser_cookie3
 import shutil
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
